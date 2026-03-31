@@ -1,3 +1,4 @@
+import CHARACTERS_RAW from './characters.md?raw';
 import { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { 
@@ -33,20 +34,10 @@ type Character = {
   description: string;
 };
 
-const CHARACTERS: Character[] = [
-  { id: '1', name: '콜롬비나', element: 'Hydro', weapon: 'Catalyst', rarity: 5, description: '우인단 집행관 제3위. "소녀". 신비로운 분위기를 풍기는 그녀의 정체는 베일에 싸여 있다.' },
-  { id: '2', name: '린네아', element: 'Geo', weapon: 'Bow', rarity: 5, description: '달빛 아래에서 춤추는 바위의 활잡이. 그녀의 화살은 대지의 기운을 담고 있다.' },
-  { id: '3', name: '나비아', element: 'Geo', weapon: 'Claymore', rarity: 5, description: '가시 장미회의 회장. 화려한 우산포와 함께 전장을 누빈다.' },
-  { id: '4', name: '푸리나', element: 'Hydro', weapon: 'Sword', rarity: 5, description: '폰타인의 물의 신... 이었을지도 모르는 그녀. 무대 위의 주인공처럼 화려한 기술을 구사한다.' },
-  { id: '5', name: '느비예트', element: 'Hydro', weapon: 'Catalyst', rarity: 5, description: '폰타인의 최고 심판관. 거대한 물줄기로 모든 것을 휩쓸어버린다.' },
-  { id: '6', name: '라이오슬리', element: 'Cryo', weapon: 'Catalyst', rarity: 5, description: '메로피드 요새의 관리자. 차가운 주먹으로 정의를 집행한다.' },
-  { id: '7', name: '슈브르즈', element: 'Pyro', weapon: 'Polearm', rarity: 4, description: '특별 순찰대 대장. 총기 사용에 능숙하며 전술적인 전투를 선호한다.' },
-  { id: '8', name: '가명', element: 'Pyro', weapon: 'Claymore', rarity: 4, description: '짐승춤의 대가. 역동적인 움직임으로 적을 압도한다.' },
-  { id: '9', name: '클로린드', element: 'Electro', weapon: 'Sword', rarity: 5, description: '폰타인의 결투 대행인. 그림자 사냥꾼의 기술을 계승한 그녀의 검술은 치명적이다.' },
-  { id: '10', name: '시그윈', element: 'Hydro', weapon: 'Bow', rarity: 5, description: '메로피드 요새의 수간호사. 멜뤼진이지만 인간의 마음을 깊이 이해하려 노력한다.' },
-  { id: '11', name: '에밀리', element: 'Dendro', weapon: 'Polearm', rarity: 5, description: '유명한 조향사. 향기를 통해 사건의 진실을 추적하는 특별한 능력을 가졌다.' },
-  { id: '12', name: '키라라', element: 'Dendro', weapon: 'Sword', rarity: 4, description: '코마니아 물류의 배달원. 고양이 요괴로서 전 세계를 누비며 물건을 배달한다.' },
-];
+const jsonMatch = CHARACTERS_RAW.match(/```json\s+([\s\S]*?)\s+```/);
+const CHARACTERS: Character[] = jsonMatch 
+  ? JSON.parse(jsonMatch[1]) 
+  : [];
 
 export default function App() {
   const [activePage, setActivePage] = useState<Page>('home');
