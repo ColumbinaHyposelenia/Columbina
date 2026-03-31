@@ -1,3 +1,7 @@
+declare module '*.md?raw' {
+  const content: string;
+  export default content;
+}
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
