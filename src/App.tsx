@@ -1,4 +1,3 @@
-import CHARACTERS_RAW from './characters.md?raw';
 import { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { 
