@@ -513,18 +513,11 @@ export default function App() {
             </p>
           </div>
           
-
           <div className="flex flex-col gap-10 md:items-end">
             <div className="flex gap-4">
-              {/* Github 버튼을 a 태그로 변경 */}
-              <a 
-                href="https://github.com/ColumbinaHyposelenia/Columbina"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-14 h-14 rounded-2xl glass-card flex items-center justify-center hover:border-primary/40 transition-all group border border-white/5"
-              >
+              <button className="w-14 h-14 rounded-2xl glass-card flex items-center justify-center hover:border-primary/40 transition-all group border border-white/5">
                 <Github className="w-6 h-6 group-hover:scale-110 transition-transform" />
-              </a>
+              </button>
               <button className="w-14 h-14 rounded-2xl glass-card flex items-center justify-center hover:border-primary/40 transition-all group border border-white/5">
                 <ExternalLink className="w-6 h-6 group-hover:scale-110 transition-transform" />
               </button>
