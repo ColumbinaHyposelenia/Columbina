@@ -2,14 +2,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #b892ff;
+  --color-primary: #cbd5e1;
   --color-bg-deep: #080512;
   --color-panel: rgba(20, 10, 43, 0.65);
   --color-panel-soft: rgba(255, 255, 255, 0.03);
   --color-text-main: #e2e8f0;
-  --color-accent: #b892ff;
+  --color-accent: #cbd5e1;
   --color-rarity-5: #ffb13f;
-  --color-rarity-4: #b892ff;
+  --color-rarity-4: #94a3b8;
   --font-display: "Anton", sans-serif;
   --font-serif: "Libre Baskerville", serif;
   --font-sans: "Noto Sans KR", sans-serif;
@@ -20,8 +20,8 @@
     @apply bg-bg-deep text-text-main antialiased overflow-x-hidden;
     font-family: 'Noto Sans KR', sans-serif;
     background-image: 
-      radial-gradient(circle at 8% -10%, rgba(184, 146, 255, 0.15), transparent 35%),
-      radial-gradient(circle at 88% 2%, rgba(255, 121, 207, 0.1), transparent 30%);
+      radial-gradient(circle at 8% -10%, rgba(255, 255, 255, 0.08), transparent 35%),
+      radial-gradient(circle at 88% 2%, rgba(255, 255, 255, 0.05), transparent 30%);
     background-attachment: fixed;
   }
 }
@@ -44,13 +44,13 @@
   }
 
   .text-glow {
-    text-shadow: 0 0 15px rgba(184, 146, 255, 0.5);
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
   }
 
   .atmosphere-gradient {
     background: 
-      radial-gradient(circle at 50% 30%, rgba(58, 21, 16, 0.1) 0%, transparent 60%),
-      radial-gradient(circle at 10% 80%, rgba(138, 43, 226, 0.1) 0%, transparent 50%);
+      radial-gradient(circle at 50% 30%, rgba(255, 255, 255, 0.05) 0%, transparent 60%),
+      radial-gradient(circle at 10% 80%, rgba(255, 255, 255, 0.05) 0%, transparent 50%);
   }
 }
 

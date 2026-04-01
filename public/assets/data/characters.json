@@ -1,0 +1,112 @@
+[
+  { 
+    "id": "1", 
+    "name": "콜롬비나", 
+    "element": "Hydro", 
+    "weapon": "Catalyst", 
+    "rarity": 5, 
+    "description": "노드크라이에서 태어난 「달의 소녀」. 돌아온 공월이기도 하다",
+    "title": "돌아온 공월",
+    "constellation": "콜롬비나하이포셀레니아자리",
+    "birthday": "1/14",
+    "affiliation": "서리달",
+    "stats": {
+      "1": { "hp": 1144, "atk": 7, "def": 40, "other": { "label": "치명타 확률", "value": "5.0%" } },
+      "20": { "hp": 2967, "atk": 19, "def": 104, "other": { "label": "치명타 확률", "value": "5.0%" } },
+      "40": { "hp": 5908, "atk": 38, "def": 207, "other": { "label": "치명타 확률", "value": "5.0%" } },
+      "50": { "hp": 7599, "atk": 49, "def": 266, "other": { "label": "치명타 확률", "value": "9.8%" } },
+      "60": { "hp": 9533, "atk": 62, "def": 334, "other": { "label": "치명타 확률", "value": "14.6%" } },
+      "70": { "hp": 11243, "atk": 73, "def": 394, "other": { "label": "치명타 확률", "value": "14.6%" } },
+      "80": { "hp": 12965, "atk": 84, "def": 454, "other": { "label": "치명타 확률", "value": "19.4%" } },
+      "90": { "hp": 14695, "atk": 96, "def": 515, "other": { "label": "치명타 확률", "value": "24.2%" } },
+      "95": { "hp": 15217, "atk": 106, "def": 533, "other": { "label": "치명타 확률", "value": "24.2%" } },
+      "100": { "hp": 15740, "atk": 117, "def": 552, "other": { "label": "치명타 확률", "value": "24.2%" } }
+    },
+    "skills": [
+      {
+        "name": "가련한 연주",
+        "type": "일반 공격",
+        "details": [
+          { "label": "일반 공격", "desc": "최대 4번 공격하여 물 원소 피해를 준다." },
+          { "label": "강공격", "desc": "일정 스테미나를 소모해 전방에 물 원소 범위 피해를 준다." },
+          { "label": "낙하 공격", "desc": "공중에서 땅을 내려쳐 경로상의 적에게 피해를 주고 착지 시 물 원소 범위 피해를 준다." }
+        ],
+        "materials": [
+          { "name": "teachings_of_equity", "count": 9 },
+          { "name": "old_handguard", "count": 18 }
+        ]
+      },
+      {
+        "name": "심연의 찬가",
+        "type": "원소 전투 스킬",
+        "details": [
+          { "label": "스킬 효과", "desc": "주변 적에게 물 원소 피해를 주고 '심연의 표식'을 남긴다." },
+          { "label": "심연의 표식", "desc": "표식이 남은 적은 2초마다 물 원소 피해를 입으며 이동 속도가 감소한다." }
+        ],
+        "materials": [
+          { "name": "guide_to_equity", "count": 12 },
+          { "name": "kageuchi_handguard", "count": 22 }
+        ]
+      },
+      {
+        "name": "종말의 소나타",
+        "type": "원소 폭발",
+        "details": [
+          { "label": "폭발 효과", "desc": "거대한 물의 파도를 소환하여 넓은 범위의 적에게 강력한 물 원소 피해를 준다." },
+          { "label": "치유 효과", "desc": "파도에 닿은 아군 캐릭터의 HP를 지속적으로 회복시킨다." }
+        ],
+        "materials": [
+          { "name": "philosophies_of_equity", "count": 15 },
+          { "name": "famed_handguard", "count": 30 },
+          { "name": "crown_of_insight", "count": 1 }
+        ]
+      }
+    ],
+    "talents": [
+      {
+        "name": "별빛의 인도",
+        "type": "고유 특성 1",
+        "desc": "밤 시간대(18시~06시)에 파티 내 모든 캐릭터의 이동 속도가 10% 증가한다.",
+        "materials": [
+          { "name": "old_handguard", "count": 3 }
+        ]
+      },
+      {
+        "name": "에테르의 흐름",
+        "type": "고유 특성 2",
+        "desc": "캐릭터가 보호막 상태일 때, 5초마다 원소 에너지를 2pt 회복한다.",
+        "materials": [
+          { "name": "kageuchi_handguard", "count": 3 }
+        ]
+      },
+      {
+        "name": "달의 가호",
+        "type": "생활 특성",
+        "desc": "미니맵에 주변의 바위 원소 관련 특산물 위치가 나타난다.",
+        "materials": []
+      }
+    ]
+  },
+  { 
+    "id": "2", 
+    "name": "린네아", 
+    "element": "Geo", 
+    "weapon": "Bow", 
+    "rarity": 5, 
+    "description": "박물학자이자 모험가 길드 노드크라이 지부의 고문. 달빛 아래에서 춤추는 바위의 활잡이.",
+    "title": "신비한 박물학자",
+    "constellation": "예언하는 새자리",
+    "birthday": "5/23",
+    "affiliation": "모험가 길드"
+  },
+  { "id": "3", "name": "나비아", "element": "Geo", "weapon": "Claymore", "rarity": 5, "description": "가시 장미회의 회장. 화려한 우산포와 함께 전장을 누빈다.", "title": "가시 장미의 조타수", "constellation": "들장미자리", "birthday": "8/16", "affiliation": "가시 장미회" },
+  { "id": "4", "name": "푸리나", "element": "Hydro", "weapon": "Sword", "rarity": 5, "description": "폰타인의 물의 신... 이었을지도 모르는 그녀. 무대 위의 주인공처럼 화려한 기술을 구사한다.", "title": "끝없는 왈츠", "constellation": "코레고스자리", "birthday": "10/13", "affiliation": "폰타인 성" },
+  { "id": "5", "name": "느비예트", "element": "Hydro", "weapon": "Catalyst", "rarity": 5, "description": "폰타인의 최고 심판관. 거대한 물줄기로 모든 것을 휩쓸어버린다.", "title": "훈계의 판결자", "constellation": "레비아탄자리", "birthday": "12/18", "affiliation": "폰타인 최고 심판소" },
+  { "id": "6", "name": "라이오슬리", "element": "Cryo", "weapon": "Catalyst", "rarity": 5, "description": "메로피드 요새의 관리자. 차가운 주먹으로 정의를 집행한다.", "title": "고요한 죄의 사슬", "constellation": "케르베로스자리", "birthday": "11/23", "affiliation": "메로피드 요새" },
+  { "id": "7", "name": "슈브르즈", "element": "Pyro", "weapon": "Polearm", "rarity": 4, "description": "특별 순찰대 대장. 총기 사용에 능숙하며 전술적인 전투를 선호한다.", "title": "법의 집행자", "constellation": "머스킷총자리", "birthday": "1/10", "affiliation": "특별 순찰대" },
+  { "id": "8", "name": "가명", "element": "Pyro", "weapon": "Claymore", "rarity": 4, "description": "짐승춤의 대가. 역동적인 움직임으로 적을 압도한다.", "title": "위풍당당 사자춤", "constellation": "해태자리", "birthday": "2/13", "affiliation": "검방운송" },
+  { "id": "9", "name": "클로린드", "element": "Electro", "weapon": "Sword", "rarity": 5, "description": "폰타인의 결투 대행인. 그림자 사냥꾼의 기술을 계승한 그녀의 검술은 치명적이다.", "title": "그림자 사냥꾼", "constellation": "황금사자자리", "birthday": "9/20", "affiliation": "결투 대행인" },
+  { "id": "10", "name": "시그윈", "element": "Hydro", "weapon": "Bow", "rarity": 5, "description": "메로피드 요새의 수간호사. 멜뤼진이지만 인간의 마음을 깊이 이해하려 노력한다.", "title": "용의 간호사", "constellation": "네레이데스자리", "birthday": "1/30", "affiliation": "메로피드 요새" },
+  { "id": "11", "name": "에밀리", "element": "Dendro", "weapon": "Polearm", "rarity": 5, "description": "유명한 조향사. 향기를 통해 사건의 진실을 추적하는 특별한 능력을 가졌다.", "title": "향기의 추적자", "constellation": "조향사자리", "birthday": "9/22", "affiliation": "폰타인" },
+  { "id": "12", "name": "키라라", "element": "Dendro", "weapon": "Sword", "rarity": 4, "description": "코마니아 물류의 배달원. 고양이 요괴로서 전 세계를 누비며 물건을 배달한다.", "title": "고양이 택배", "constellation": "상자고양이자리", "birthday": "1/22", "affiliation": "코마니아 물류" }
+]
