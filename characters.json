@@ -1,0 +1,14 @@
+[
+  { "id": "1", "name": "콜롬비나", "element": "Hydro", "weapon": "Catalyst", "rarity": 5 },
+  { "id": "2", "name": "린네아", "element": "Geo", "weapon": "Bow", "rarity": 5 },
+  { "id": "3", "name": "나비아", "element": "Geo", "weapon": "Claymore", "rarity": 5 },
+  { "id": "4", "name": "푸리나", "element": "Hydro", "weapon": "Sword", "rarity": 5 },
+  { "id": "5", "name": "느비예트", "element": "Hydro", "weapon": "Catalyst", "rarity": 5 },
+  { "id": "6", "name": "라이오슬리", "element": "Cryo", "weapon": "Catalyst", "rarity": 5 },
+  { "id": "7", "name": "슈브르즈", "element": "Pyro", "weapon": "Polearm", "rarity": 4 },
+  { "id": "8", "name": "가명", "element": "Pyro", "weapon": "Claymore", "rarity": 4 },
+  { "id": "9", "name": "클로린드", "element": "Electro", "weapon": "Sword", "rarity": 5 },
+  { "id": "10", "name": "시그윈", "element": "Hydro", "weapon": "Bow", "rarity": 5 },
+  { "id": "11", "name": "에밀리", "element": "Dendro", "weapon": "Polearm", "rarity": 5 },
+  { "id": "12", "name": "키라라", "element": "Dendro", "weapon": "Sword", "rarity": 4 }
+]

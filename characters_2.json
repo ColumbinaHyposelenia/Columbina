@@ -1,0 +1,12 @@
+{ 
+  "id": "2", 
+  "name": "린네아", 
+  "element": "Geo", 
+  "weapon": "Bow", 
+  "rarity": 5, 
+  "description": "박물학자이자 모험가 길드 노드크라이 지부의 고문. 달빛 아래에서 춤추는 바위의 활잡이.",
+  "title": "신비한 박물학자",
+  "constellation": "예언하는 새자리",
+  "birthday": "5/23",
+  "affiliation": "모험가 길드"
+}

@@ -1,0 +1,90 @@
+{ 
+    "id": "1", 
+    "name": "콜롬비나", 
+    "element": "Hydro", 
+    "weapon": "Catalyst", 
+    "rarity": 5, 
+    "description": "노드크라이에서 태어난 「달의 소녀」. 돌아온 공월이기도 하다",
+    "title": "돌아온 공월",
+    "constellation": "콜롬비나하이포셀레니아자리",
+    "birthday": "1/14",
+    "affiliation": "서리달",
+    "stats": {
+      "1": { "hp": 1144, "atk": 7, "def": 40, "other": { "label": "치명타 확률", "value": "5.0%" } },
+      "20": { "hp": 2967, "atk": 19, "def": 104, "other": { "label": "치명타 확률", "value": "5.0%" } },
+      "40": { "hp": 5908, "atk": 38, "def": 207, "other": { "label": "치명타 확률", "value": "5.0%" } },
+      "50": { "hp": 7599, "atk": 49, "def": 266, "other": { "label": "치명타 확률", "value": "9.8%" } },
+      "60": { "hp": 9533, "atk": 62, "def": 334, "other": { "label": "치명타 확률", "value": "14.6%" } },
+      "70": { "hp": 11243, "atk": 73, "def": 394, "other": { "label": "치명타 확률", "value": "14.6%" } },
+      "80": { "hp": 12965, "atk": 84, "def": 454, "other": { "label": "치명타 확률", "value": "19.4%" } },
+      "90": { "hp": 14695, "atk": 96, "def": 515, "other": { "label": "치명타 확률", "value": "24.2%" } },
+      "95": { "hp": 15217, "atk": 106, "def": 533, "other": { "label": "치명타 확률", "value": "24.2%" } },
+      "100": { "hp": 15740, "atk": 117, "def": 552, "other": { "label": "치명타 확률", "value": "24.2%" } }
+    },
+    "skills": [
+      {
+        "name": "달 이슬비",
+        "type": "일반 공격",
+        "details": [
+          { "label": "일반 공격", "desc": "달빛 조석을 소환하여 최대 3번 공격해 물 원소 피해를 준다." },
+          { "label": "강공격", "desc": ["일정 스태미나를 소모해 짧은 영창 후 물 원소 범위 피해를 준다.",
+          "풀 이슬을 1개 이상 보유한 경우, 콜롬비나의 강공격은 스태미나를 소모하지 않는 특수 강공격 달 이슬 세례로 대체된다: 풀 이슬 1개를 소모해 전방의 적에게 풀 원소 범위 피해를 3회 준다. 해당 피해는 달 개화 피해로 간주된다."] },
+          { "label": "낙하 공격", "desc": "공중에서 땅을 내려찍어 경로상의 적을 공격하고 착지 시 물 원소 범위 피해를 준다" }
+        ],
+        "materials": [
+          { "name": "「달빛」", "count": "(3/21/38)" },
+          { "name": "슬라임 원액", "count": "(6/22/31)" },
+          { "name": "의사의 가면", "count": 6}
+        ]
+      },
+      {
+        "name": "아득한 조석",
+        "type": "원소 전투 스킬",
+        "details": [
+          { "label": "스킬 효과", "desc": "주변 적에게 물 원소 피해를 주고 '심연의 표식'을 남긴다." },
+          { "label": "심연의 표식", "desc": "표식이 남은 적은 2초마다 물 원소 피해를 입으며 이동 속도가 감소한다." }
+        ],
+        "materials": [
+          { "name": "guide_to_equity", "count": 12 },
+          { "name": "kageuchi_handguard", "count": 22 }
+        ]
+      },
+      {
+        "name": "향수에 잠긴 달",
+        "type": "원소 폭발",
+        "details": [
+          { "label": "폭발 효과", "desc": "거대한 물의 파도를 소환하여 넓은 범위의 적에게 강력한 물 원소 피해를 준다." },
+          { "label": "치유 효과", "desc": "파도에 닿은 아군 캐릭터의 HP를 지속적으로 회복시킨다." }
+        ],
+        "materials": [
+          { "name": "philosophies_of_equity", "count": 15 },
+          { "name": "famed_handguard", "count": 30 },
+          { "name": "crown_of_insight", "count": 1 }
+        ]
+      }
+    ],
+    "talents": [
+      {
+        "name": "별빛의 인도",
+        "type": "고유 특성 1",
+        "desc": "밤 시간대(18시~06시)에 파티 내 모든 캐릭터의 이동 속도가 10% 증가한다.",
+        "materials": [
+          { "name": "old_handguard", "count": 3 }
+        ]
+      },
+      {
+        "name": "에테르의 흐름",
+        "type": "고유 특성 2",
+        "desc": "캐릭터가 보호막 상태일 때, 5초마다 원소 에너지를 2pt 회복한다.",
+        "materials": [
+          { "name": "kageuchi_handguard", "count": 3 }
+        ]
+      },
+      {
+        "name": "달의 가호",
+        "type": "생활 특성",
+        "desc": "미니맵에 주변의 바위 원소 관련 특산물 위치가 나타난다.",
+        "materials": []
+      }
+    ]
+  }
